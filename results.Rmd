@@ -1,0 +1,259 @@
+---
+title: "The Limits of Human Predictions of Recidivism"
+author:
+- Zhiyuan "Jerry" Lin, Jongbin Jung, Sharad Goel, Jennifer Skeem
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, fig.align="center")
+setwd("src")
+library(tidyverse)
+library(kableExtra)
+source("consts.R")
+theme_set(theme_bw())
+```
+
+This is an R Markdown recreating the plots and tables in the paper.
+
+```{r read}
+paper_results <- read_rds(PAPER_RESULTS_RDS)
+```
+
+
+## Dataset Summary
+```{r, echo=FALSE, fig.width = 8, fig.height = 3}
+paper_results$t$data_summary_table %>% 
+  mutate(baserate = paste0(round(100 * baserate), "%")) %>% 
+  kable() %>%
+  kable_styling()
+```
+
+__Table 1__: 
+Characteristics of the four datasets we considered (Note: "BR"" is "base rate").
+
+<br/><br/>
+
+## Figures
+```{r, echo=FALSE, fig.width = 8, fig.height = 3}
+paper_results$p$p_acc_perf
+```
+
+__Figure 2__: Classification accuracy of: 
+(1) human predictions,
+with and without immediate feedback;
+(2) a logistic regression model
+that we trained using the same information provided to study participants;
+and (3) the existing tools, COMPAS or LSI-R.
+For participants in the feedback condition,
+only the last 10 responses for each participant were used,
+to account for the effects of learning.
+Error bars represent 95% confidence intervals,
+and are typically smaller than the height of the red square for the logistic regression models.
+    
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE, fig.width = 5.5, fig.height = 3}
+paper_results$p$p_short_v_long
+```
+
+__Figure 3__: Ranking accuracy (AUC) of: 
+(1) human predictions without feedback;
+(2) logistic regression models that use the same information provided to study participants;
+and (3) the existing LSI-R tools.
+Error bars indicate 95% confidence intervals.
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE, fig.width = 8, fig.height = 5}
+paper_results$p$p_recall
+```
+
+__Figure 4__: Proportion of people who recidivated that were identified when ranking by the
+risk assessments of humans in the no-feedback condition, a logistic regression model,
+and existing tools (COMPAS or LSI-R).
+For each value $p$ on the horizontal axis,
+the vertical axis shows the proportion of all recidivists
+that are included among the $p$-percent of the population deemed riskiest.
+Human performance was generally comparable to algorithmic tools in the ”streamlined“ condition
+(top panels), but algorithmic tools outperformed humans when more information was made
+available (”enriched“ condition, in the bottom panels).
+
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE, fig.width = 8, fig.height = 3}
+paper_results$p$p_auc_perf
+```
+
+__Figure A1__:
+Ranking performance (AUC) of:
+(1) human predictions without feedback;
+(2) logistic regression models
+that use the same information provided to study participants;
+and (3) the existing tools, COMPAS or LSI-R.
+Error bars indicate 95% confidence intervals.
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE, fig.width = 5, fig.height = 3}
+paper_results$p$p_t_dist
+```
+
+__Figure A2__:
+Distribution of the $t$-statistic for the difference in accuracy between humans
+and existing tools (COMPAS or LSI-R) across all 645 participants.
+The vertical dashed line is at $t=2$.
+None of the participants outperformed the 
+existing tools by a statistically significant margin.
+
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE, fig.width = 10, fig.height = 4}
+paper_results$p$p_acc_overtime
+```
+
+__Figure A3__:
+Average classification accuracy over time with feedback, for a sliding window of 10 questions, where the window ID indicates the last question of that window.
+Humans recalibrated as a result of feedback, and we accordingly observed increasing accuracy. 
+The largest improvements occurred for groups with low base rates.
+Grey bands indicate 95% confidence intervals.
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE, fig.width = 9, fig.height = 5}
+paper_results$p$p_calib
+```
+
+__Figure A4__:
+Calibration plot for human responses.
+Lines show a logistic regression of participants' estimated probabilities against the
+actual outcomes, and indicate that human predictions suffered from poor calibration.
+In the feedback conditions, we restricted to the final 10 responses to adjust for learning gains.
+In a re-analysis of Dressel and Farid's data, Bansak likewise found evidence of poor calibration in human predictions of recidivism.
+
+
+<br/><br/>
+
+## Tables
+```{r, echo=FALSE}
+paper_results$t$acc_hvm_perf_table_nofb %>%
+  mutate(features = factor(features, levels=c('short', 'long'), 
+                           labels=c("streamlined", "enriched"))) %>% 
+  mutate_all(~cell_spec(.x, "html", bold = grepl("\\\\textbf", .x))) %>%
+  mutate_all(~str_remove_all(.x, "\\\\textbf\\{|\\}")) %>% 
+  kable(format = "html", escape = F) %>%
+  kable_styling()
+```
+
+__Table A1__:
+Difference in 
+classification accuracy (in percentage points) between
+humans without feedback and:
+(1) existing tools (COMPAS or LSI-R);
+and (2)
+our own logistic regression models.
+In all cases, the algorithms 
+outperformed the study participants
+by a statistically significant margin, 
+with the standard error of estimates in parentheses.
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE}
+paper_results$t$acc_hvm_perf_table_fb %>%
+  mutate(features = factor(features, levels=c('short', 'long'), 
+                           labels=c("streamlined", "enriched"))) %>% 
+  mutate_all(~cell_spec(.x, "html", bold = grepl("\\\\textbf", .x))) %>%
+  mutate_all(~str_remove_all(.x, "\\\\textbf\\{|\\}")) %>% 
+  kable(format = "html", escape = F) %>%
+  kable_styling()
+```
+
+__Table A2__:
+Difference in classification accuracy (in percentage points) between
+humans with feedback and:
+(1) existing tools (COMPAS or LSI-R);
+and (2)
+our own logistic regression models.
+The algorithms outperformed humans in 
+all cases,
+with bolded entries indicating
+statistically significant gaps
+and standard errors in parentheses.
+
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE}
+paper_results$t$acc_hvh_perf_table %>%
+  mutate(features = factor(features, levels=c('short', 'long'), 
+                           labels=c("streamlined", "enriched"))) %>% 
+  mutate_all(~cell_spec(.x, "html", bold = grepl("\\\\textbf", .x))) %>%
+  mutate_all(~str_remove_all(.x, "\\\\textbf\\{|\\}")) %>% 
+  kable(format = "html", escape = F) %>%
+  kable_styling()
+```
+
+__Table A3__:
+Difference in classification accuracy (in percentage points) between participants who did and did not receive feedback.
+In all cases, feedback improved accuracy, with statistically significant differences indicated in bold.
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE}
+paper_results$t$auc_hvm_perf_table_nofb %>%
+  mutate(features = factor(features, levels=c('short', 'long'), 
+                           labels=c("streamlined", "enriched"))) %>% 
+  mutate_all(~cell_spec(.x, "html", bold = grepl("\\\\textbf", .x))) %>%
+  mutate_all(~str_remove_all(.x, "\\\\textbf\\{|\\}")) %>% 
+  kable(format = "html", escape = F) %>%
+  kable_styling()
+```
+
+__Table A4__:
+Difference in ranking accuracy (AUC) between
+humans without feedback and:
+(1) existing tools (COMPAS or LSI-R);
+and (2)
+our own logisitic regression models.
+The algorithms outperformed humans in 
+nearly every case,
+with bolded entries indicating
+statistically significant gaps
+and standard errors in parentheses.
+
+
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE}
+paper_results$t$short_long_perf_table %>%
+  mutate_all(~cell_spec(.x, "html", bold = grepl("\\\\textbf", .x))) %>%
+  mutate_all(~str_remove_all(.x, "\\\\textbf\\{|\\}")) %>% 
+  kable(format = "html", escape = F) %>%
+  kable_styling()
+```
+
+__Table A5__:
+Difference in performance
+(as measured by classification accuracy and AUC)
+between the 
+streamlined and the enriched conditions, 
+for both humans without feedback and our logistic regression models.
+Positive values indicate better performance in the enriched condition, with standard errors in parentheses and statistically significant differences in bold.
+For ranking accuracy (AUC), our models improved by a statistically significant margin in both datasets 
+when provided with enriched information, but the study participants did not.
+
+
+<br/><br/><br/><br/>
+```{r, echo=FALSE}
+paper_results$t$recall_at50_table %>%
+  arrange(features, expName) %>% 
+  mutate_all(~cell_spec(.x, "html", bold = grepl("\\\\textbf", .x))) %>%
+  mutate_all(~str_remove_all(.x, "\\\\textbf\\{|\\}")) %>% 
+  kable(format = "html", escape = F) %>%
+  kable_styling()
+```
+
+__Table A6__:
+Difference in recall-at-50% (in percentage points) between humans without feedback and:
+(1) existing tools (COMPAS or LSI-R);
+and (2) our own logistic regression models.
+Recall-at-50% is the proportion of recidivists in the dataset that are contained in a list of the 50% of individuals deemed riskiest by a particular method.
+The algorithms outperformed humans in all cases, with bolded entries indicating statistically significant gaps.
+
+
+

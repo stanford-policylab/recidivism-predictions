@@ -1,0 +1,266 @@
+id,user_id,assignment_id,user_group,exit_status,user_block,age,gender,degree,comment
+1,4de0cf6b096da457c74094ed43708dbf,65c4130357786b3b50070a8c04745acb,vignette,churned,1,NA,NA,NA,NA
+2,1d328242713834e6ceb7c30c754a5ad9,d5610711d6047ca44c677180129dc9b4,vignette,churned,1,NA,NA,NA,NA
+3,6a8b3a1631ab52907c731b1a9327eb60,a91e7b67437cea34dfc9c41f14a62753,vignette,churned,1,NA,NA,NA,NA
+4,1a0e361cb6dca19aad742e63ca1b45ed,def926f08bcfcb5ec0c4fd105022db65,feedback_vignette,churned,1,NA,NA,NA,NA
+5,74be9a119fd1f5013670ea0d06c762cd,134dc96a0e52eaa912e7ae8251e85fed,vignette,churned,1,NA,NA,NA,NA
+6,f3d66557f0f04bf9f9b38a6ebfcaea19,20259e1518df1da9a7005b606abd68ca,vignette,churned,1,NA,NA,NA,NA
+7,c8f39756ec7959457dbbb0ea59e07804,86b530b558aeee313fd278c030c051fc,feedback_vignette,churned,1,NA,NA,NA,NA
+8,ebb9148cbdaaa5b5c5bbd66b91a3495e,46534adfc8a85c98d9179316da011f9d,feedback_vignette,churned,1,NA,NA,NA,NA
+9,4a41e169d3709a04b9c45cfd85f70821,1629af518196e74a1d4478c91a985b1a,vignette,submitted,1,30,f,High school,NA
+10,820025296abca666ffe752b05baf417a,fe7d01211d6c79aae4ef15fcf6880af7,vignette,submitted,1,27,f,High school,NA
+11,d9008d100e47386cc026575cb3c4f6bd,46534adfc8a85c98d9179316da011f9d,vignette,submitted,1,33,f,Bachelor degree,NA
+12,b4ae25b52c624a724fbbf74b2e64c53c,134dc96a0e52eaa912e7ae8251e85fed,feedback_vignette,submitted,1,34,m,Bachelor degree,None
+13,54fb38aacc96667ea2e11a28eb088f09,873e40ce1c9cdf6a374ef8629735a8e1,feedback_vignette,submitted,1,36,m,Bachelor degree,NA
+14,30ffd48ea011ed313fbffcdf83545df7,0e6ca04e48b88a2e688483e0725f6a05,vignette,churned,1,NA,NA,NA,NA
+15,fb10c5700b12ea72b6f532bd62e51f44,86db56ad4f4a6d7fe1ffde4f71e4d19b,feedback_vignette,churned,1,NA,NA,NA,NA
+16,09fb2b07ee74e7bef22fc261880f0846,78fc77c0aaef1ce63db6d4a1bd0052f6,feedback_vignette,churned,1,NA,NA,NA,NA
+17,93fcda5a0d04e55cd3af360daeffb801,c3010adc0471af124ef1921cfe3c02d5,feedback_vignette,churned,1,NA,NA,NA,NA
+18,ab9cec895536aabe11fd5124da539c6a,e7a9cdf7a59630a15052c8dcbacd0f27,vignette,churned,1,NA,NA,NA,NA
+19,8b3a1930a34841096f58e8f4ecf6a005,e948f4f87da5a74b52ce3d1916d386d3,feedback_vignette,churned,1,NA,NA,NA,NA
+20,f2be10c8727eab3151de8c792d46e61a,f51119782b1d5e22ec7017ae013e34db,vignette,churned,1,NA,NA,NA,NA
+21,31d1646201f32d9995f816e8a80d49f5,65d1231728749a7dd82009d2e9689df4,vignette,churned,1,NA,NA,NA,NA
+22,8204174d4c8d5836da393373ed7959fb,b5b497768ac1879dcd8fd9146a199dc3,vignette,churned,1,NA,NA,NA,NA
+23,81ad99dfc3bf56cd7f812bd8bc10183d,5b86021a17e8880fa63c0003aacdbb60,feedback_vignette,churned,1,NA,NA,NA,NA
+24,2b931a9451e6998e4eb10e1ffeb09d17,52739532fe734354225b28594f4dc99d,vignette,churned,1,NA,NA,NA,NA
+25,56fd3bcba44db916f432ee2a98a15673,f1571f4d446b0793a5d957c99b297b5b,vignette,churned,1,NA,NA,NA,NA
+26,019667c13011477ba77de91195c92267,83f1e1e782909cffdacc4dc714caccb9,vignette,churned,1,NA,NA,NA,NA
+27,16bfce340889b3230f4b67abe0a8b9a6,e948f4f87da5a74b52ce3d1916d386d3,vignette,churned,1,NA,NA,NA,NA
+28,d4592ac4c068f0863c3a66621ec9b273,7fce7793a960f71b49c42e0e9317853e,vignette,churned,1,NA,NA,NA,NA
+29,dce110023e217c1c9a5096a0ff1d0717,488fc13b79835d0a727d4bd221f53576,vignette,churned,1,30,m,Doctoral degree,NA
+30,57d52df2df1e48fd2521aee6261be029,cc942c63e8ba5a41ecc7b9631d51b3ef,vignette,churned,1,NA,NA,NA,NA
+31,573a84c6f03ebabf5440e58b1799f2df,aae61ab25d5ddb6d55f6721b4dd46b61,vignette,submitted,1,34,f,Associate degree,NA
+32,0b43a4c1da25dd03b71832d0523c0469,b9a428053b95799f0bb746d2c6418eb3,vignette,submitted,1,40,f,Bachelor degree,NA
+33,0b43a4c1da25dd03b71832d0523c0469,b9a428053b95799f0bb746d2c6418eb3,vignette,submitted,1,40,f,Bachelor degree,NA
+34,c7dcd35c1717e31e262e6c6d7aa8fdb9,6d00367cc01a6376c8965779563dfd35,vignette,submitted,1,22,f,Bachelor degree,Thank you for the study
+35,210d851d5e26dfcec39c7f347b7754d6,3ca4e9e2881d7d17a86c36b206d8bc2a,vignette,submitted,1,26,m,Bachelor degree,Everything was clear with no errors at all!
+36,5436abeb8b30ba0155c28ca731e9835a,f99c35f951c167ea212b1b689476d726,feedback_vignette,submitted,1,25,m,Bachelor degree,NA
+37,a0121fc2d5b4ab48dcc89b88494cf51e,88665abd77cae7885d16891d372a5c0e,feedback_vignette,submitted,1,31,m,Master degree,Good Survey! :D
+38,2f9097083d4b09a3eed77c002c362db2,4c596a311e5113734f6489c58ba2bc2f,feedback_vignette,submitted,1,34,m,Associate degree,NA
+39,bba1f117c7a433c5d99f74f37f32ee80,817018e96ffccbca6f3dee6028457dfa,feedback_vignette,submitted,1,30,m,Bachelor degree,NA
+40,2e70c5261ef76f922c2e95774bde6e93,f3a0d62f7dbecaa6180aeffd858dad38,vignette,submitted,1,33,m,Associate degree,NA
+41,20257a6cc73d0fff5dac756b47ba3672,97f7d3d8323a34b226801ba6e35c4129,feedback_vignette,submitted,1,30,m,Bachelor degree,very good study
+42,4ec599c2b55de8f4ec7acd4a9c7e451e,d53457d3405e21ff71058bf148df0b51,feedback_vignette,submitted,1,30,f,Doctoral degree,good
+43,fb2e051ef4fc73b1e1bc57cb65ea7826,441f5e4b070fe57cdd89fe9b0530437b,vignette,submitted,1,26,f,Bachelor degree,It was interesting.
+44,9d5c18c9cfae5f0be0b2bb06b3a931e8,385c0df50a3f1ab3bbe8fe13ab64e707,vignette,churned,1,NA,NA,NA,NA
+45,a6ec7f7ae391fe5c36f0a8495f13b9ef,61707955e25dd05c30656d4b322d1321,feedback_vignette,submitted,1,32,NA,Bachelor degree,NA
+46,2b0045017ea76f795b31c3441c44e9cb,0e82ab17db3d20333c4c15e6855ebda5,vignette,submitted,1,42,m,High school,NA
+47,a3cdcd2f45af44d5b9d4eaa2a3a01f07,34f1ac89f407810ae88702a9e3703bb2,vignette,submitted,1,39,f,Associate degree,NA
+48,c67e8fa79a34a50a225d5638ab272bdf,8635f954561f023cf25ffcfd24b0bcb7,feedback_vignette,submitted,1,55,m,Bachelor degree,"the more felony arrests, the more likely the recidivism
+"
+49,7ceb041b724de5cd1ace7bda664d3033,c83087bbd652199e31d9961f9a5ff6ce,feedback_vignette,submitted,1,39,m,Bachelor degree,So much fun!
+50,fa8be1ea407ad7f373b670d2c4fb2fdb,7be8aa81d12156c3db6410a2d688d586,feedback_vignette,submitted,1,46,m,Doctoral degree,None
+51,a77d9ea464311387597d772039cf177d,bf7e0594ceb3e76454833ffc442c6d62,vignette,churned,1,29,m,High school,NA
+52,8d5d83ca101ab3cbbfa1ccde5129f7f7,8c8fa5d81464173b3d55f91c883afacd,vignette,submitted,1,26,f,Bachelor degree,Great!!
+53,3178a042ac4ee047afce53d24c9327c7,a59d70e6cd4981475cc77e8d6e2cc96d,feedback_vignette,submitted,1,40,m,Associate degree,NA
+54,e9cd17df37b7ee658255a8e5006132b2,a2c3eb3d28ec69a224512e21dc84c5eb,vignette,submitted,1,32,f,Bachelor degree,NA
+55,0103addc60d625ffe2daab0917fa0318,b3787d33ba6bd03353bcb323b0e3693c,feedback_vignette,submitted,1,37,m,Doctoral degree,Very interesting.
+56,1ebadd7c18eb0bbbfde8f5d06c53e30e,d0280ccb9d35811ef43983f81e1f2a28,vignette,submitted,1,42,m,Associate degree,Interesting
+57,24005a65a2ce76b5195912041bd07847,725ff42d650af10df33208a69aa4dd1b,feedback_vignette,submitted,1,29,m,Bachelor degree,No
+58,24005a65a2ce76b5195912041bd07847,725ff42d650af10df33208a69aa4dd1b,feedback_vignette,submitted,1,29,m,Bachelor degree,No
+59,24005a65a2ce76b5195912041bd07847,725ff42d650af10df33208a69aa4dd1b,feedback_vignette,submitted,1,29,m,Bachelor degree,No
+60,24005a65a2ce76b5195912041bd07847,725ff42d650af10df33208a69aa4dd1b,feedback_vignette,submitted,1,29,m,Bachelor degree,No
+61,e594958ff53e3e9beed2424350593ba0,44d08a19b4e77c5142f971efad3024d9,vignette,churned,1,NA,NA,NA,NA
+62,ecd2b18aa2e344ab9dcef69e81737e0e,fae83422133bab7a8e62ae7e15daa0fb,vignette,churned,1,23,m,Bachelor degree,NA
+63,406c05ce8be640ae1169a554dab18101,b59fdf22219e33136d9e4279572a5a72,vignette,churned,1,NA,NA,NA,NA
+64,b0e18a3b24713d6d3dae6013fd827a92,890055d5d646383964ed910c21bc3640,feedback_vignette,churned,1,NA,NA,NA,NA
+65,9ad34295ee612215b89e4e7112723c93,f3a98c94e9b720bdfc939b6cb33af459,vignette,submitted,1,45,f,Bachelor degree,no feedback thank you
+66,6a95467b0063bf0b3833d87484cc8438,bf2aed825384752e4a122bddd8b9334e,vignette,submitted,1,54,f,Bachelor degree,NA
+67,3de2695d4763735bd273dd9ecb4e564b,e375d69fa2704d59415e73b45a396c46,feedback_vignette,churned,1,30,m,High school,NA
+68,6a95467b0063bf0b3833d87484cc8438,bf2aed825384752e4a122bddd8b9334e,vignette,churned,1,54,f,Bachelor degree,NA
+69,f16efe7b5fae6530654bc025a3f66a63,877275c88a0140ac7df7b95128663393,feedback_vignette,submitted,1,27,m,NA,NA
+70,16fbfeaee13121ded4af3ac512bad514,5e2af6d02a5aed01815353cf061f7960,feedback_vignette,submitted,1,59,NA,Associate degree,This is the most engaging study I have done. I like that it gives immediate feedback.
+71,ddae775ffb544bf285f2890d8524dc03,96c3fdd26814f802862dbae44b50ab5b,feedback_vignette,submitted,1,30,f,Bachelor degree,Thanks for the study.
+72,833d39b02a6029cfdd67abf9c0ecf6a5,a19f0431967e56e4c4db0fe091439193,feedback_vignette,submitted,1,64,f,High school,"That was a ""fun"" study!"
+73,4f77bed9687ba4544c47373ecc0f1b3e,6e5c4b86048217190e2658a5d6d1b2f6,vignette,submitted,1,34,f,Associate degree,NA
+74,fa46c8bb0e0a5ea4b2cf9e12eb4b6b1d,8d596577ac1cb2196930f0441a413cd1,feedback_vignette,submitted,1,64,m,Associate degree,this was very interesting
+75,1a39c8eb659a5bcea29d444ff289f4ea,0dac4aeb10bea8408b6c36442e877bbc,vignette,submitted,1,36,m,Associate degree,NA
+76,bbc9831becccfba586eda7dad521af93,fc4543396e0ea500292f170343ad0a3b,vignette,submitted,1,30,f,Doctoral degree,very good
+77,61f59c3c07775a222e2d048a014dde1b,08fbfd91bc9e939248146caec60ee8a0,feedback_vignette,submitted,1,0,m,Bachelor degree,NA
+78,5ef79fca7266301af832068dd82c1a5d,c3010adc0471af124ef1921cfe3c02d5,feedback_vignette,churned,1,27,m,Associate degree,NA
+79,3eb7caa16f7c1467cbd732bcb8744318,f1fc8e1644adddacf74305f2f69ff186,feedback_vignette,churned,1,NA,NA,NA,NA
+80,0735274079b81590d414333235052d1e,9cc53fc71aeac4f9d018227a5e4edef6,feedback_vignette,submitted,1,32,m,High school,NA
+81,70933fa431d9041c683ea542730cc652,68ea2ad84c2ba5f5dc08154c4f3525ad,feedback_vignette,submitted,1,31,f,High school,Was pretty interesting!
+82,46613a52c415ab309f307e49a0c645a6,385c0df50a3f1ab3bbe8fe13ab64e707,feedback_vignette,churned,1,60,m,Master degree,NA
+83,97a6c406e69b477d3367add03a7e15f8,8154a0600cdde59b95793957d68f4020,vignette,submitted,1,33,m,High school,Thank you. I hope my responses have been valuable to your research.
+84,8342be982aa62d6f3466e17c41799924,d27ff313987de776e3bea3fcb929c93f,vignette,submitted,1,69,f,Doctoral degree,none
+85,4e7d245e73922b5e0b7b0d3887d24d59,bb166bddc99f9ce651275530dfaaf85b,feedback_vignette,churned,1,NA,NA,NA,NA
+86,e7732553867d32241362475d3673d296,527cc5506458cd134106733a2c005cec,feedback_vignette,churned,1,NA,NA,NA,NA
+87,2e49a4482b2416d620396cabb78f7b65,b11332f6dd344d65dc74a5b91d1287f2,feedback_vignette,submitted,1,32,m,High school,"It was very interesting, thank you!"
+88,74de0bd9a4d1e5f245b85240f9d8ef98,78911facc76b341d75276be4d642251c,feedback_vignette,submitted,1,22,f,Bachelor degree,NA
+89,861e945d39707c845da0be6bce63805c,be2868f5719ed099d440d17a9aae00b9,feedback_vignette,submitted,1,29,m,Master degree,NOT COMMENT
+90,a7c04f96596c8817e113e7a14f7cfb4c,18552fdd43e47721a8af94fc4a8d11a9,vignette,submitted,1,65,m,Bachelor degree,Very exciting this study !
+91,a3bcc2c5b73d09a87f11d116e6412f3a,f1fc8e1644adddacf74305f2f69ff186,feedback_vignette,submitted,1,33,m,Master degree,good survey
+92,535fbba52157d558ad7900f6df7c8110,67aea0e1fd2b47bad199fb78aee823ec,vignette,submitted,1,30,f,Master degree,NA
+93,dfde383f8eb64e9722e2d0ae7092e491,65d1231728749a7dd82009d2e9689df4,vignette,submitted,1,31,m,Master degree,NA
+94,f99a6a69b0bdac98f73f7ffbdf02d262,48d83dba56b59951be6f8ead39cfe0cc,vignette,churned,1,65,NA,Master degree,NA
+95,4cebbd51114465bb5d0a9b55419b9437,df0c7893cc449ad934bab76330174d53,vignette,churned,1,27,f,NA,NA
+96,40e248a3ff27308abb62a3369100aa76,b7b7cf8f36da6123c48afa9617a66a95,feedback_vignette,submitted,1,28,f,Master degree,well
+97,40e248a3ff27308abb62a3369100aa76,b7b7cf8f36da6123c48afa9617a66a95,feedback_vignette,submitted,1,28,f,Master degree,well
+98,131beddd59af74121b19f227912fcc3f,9f82bd3a339609e09f36e7bd3478b8ee,vignette,submitted,1,28,f,Bachelor degree,NA
+99,947261a8b5efa667daa817fa4f82b6db,d736642645a0e20f7410efb315aeb4eb,vignette,churned,1,NA,NA,NA,NA
+100,da4d3c022bb9ba96c1ffbc48de5116b4,7bc78c63be4f75325911eacf575b78f7,feedback_vignette,submitted,1,28,f,Bachelor degree,NA
+101,434ebe715399f7712df7ff426f9851c3,841da42e1d96a502489fc99bc679b0d9,feedback_vignette,submitted,1,66,NA,Associate degree,NA
+102,81c8818d9de5c4a3e1d7117f29abdeb3,3ae2f3aae8d3685f64f956f0f3030ab3,feedback_vignette,submitted,1,32,m,Bachelor degree,Much harder than I thought it would be.
+103,fe897d15137faaa77969e9c6deeac66f,24b63496822256f35ce8e1f47307906b,feedback_vignette,submitted,1,30,m,Master degree,very good
+104,fe897d15137faaa77969e9c6deeac66f,24b63496822256f35ce8e1f47307906b,feedback_vignette,submitted,1,30,m,Master degree,very good
+105,74fd7d2e427ba5a766035a56b9053844,cd13fbfe6256798601720f3eef7683e7,vignette,submitted,1,51,f,Master degree,NA
+106,e7b24f642a8bea2bf58cd17b1658c4cb,b74974112a1da20c084e9ccb34940d7f,vignette,submitted,1,36,m,Master degree,NA
+107,70ab254c2932455959861825b79ce208,a91e7b67437cea34dfc9c41f14a62753,vignette,submitted,1,57,f,Master degree,NA
+108,cb5b5605057485dcfaab68dcc3b5c2ff,5e3587ff1c9006e08adaf46476d01f08,feedback_vignette,churned,1,NA,NA,NA,NA
+109,c6ec7f71e7dd3c6f6d64f09c421a233d,96f5644afd73508e7d2d6fedd3ae8007,feedback_vignette,churned,1,NA,NA,NA,NA
+110,b35fed2c67d8ca28345780418b5392b6,5a3304efbc84577cd90b152c6794b972,vignette,submitted,1,34,f,Bachelor degree,NA
+111,83ce460c9296802841f9bf574f323b95,1ef4ec86b667459f5d594719bf55ed4a,feedback_vignette,churned,1,NA,NA,NA,NA
+112,b37c27dd3ae131d012fdedad4a6a7aec,21cbf237468be3269a085d824015bbeb,vignette,submitted,1,37,m,Bachelor degree,NA
+113,33d655dfa7d8ba77c5872dd7e4b389b2,a8eca118908a60f1cf4cbd30a05e6dc3,vignette,submitted,1,29,f,Bachelor degree,NA
+114,4aa17b3b454a4e201a934a935834b15f,71505ebf9414907cf7df10a5a2cfc048,feedback_vignette,churned,1,NA,NA,NA,NA
+115,122eee8d29111ee7064cebb668145c4b,3de3104282b406f6c6b93416b3b0c1ee,vignette,churned,1,NA,NA,NA,NA
+116,ff99ed4c46b33e5a5397a749969ee9e4,e47293c10b19ad772c537c4d0811af4c,vignette,submitted,1,24,f,Bachelor degree,Really made me think!
+117,337353295f7ffbbf070ea1a6d416735a,5adbe8c726007263dc9e41975167d67d,feedback_vignette,submitted,1,21,f,Associate degree,NA
+118,bf64f33dd1e501940bb8b2699c1fcc4f,5fee63d2cba59638ee6686cc1c74366a,feedback_vignette,submitted,1,67,f,Associate degree,fun
+119,84e36d4a83a2fd8ebf3d6eaa94da5c06,72c0f849e8aa2d66e5d828484a449735,vignette,submitted,1,31,m,Master degree,its interesting...
+120,a3dc1cec03bcff7e8ba5c4702334c0b0,87768d86a19ebafe61d0b2dc8c013571,vignette,submitted,1,27,f,Associate degree,NA
+121,8692a88cc0d8fceb17a18b00c651919e,6c8990620f8066f77ad3c416963c56b9,vignette,submitted,1,70,f,High school,NA
+122,ad227638fe58c324c513fc9f042a5dba,60ac7dbf132689e25d792f3f7b8ca442,feedback_vignette,submitted,1,42,f,High school,This was very fun!!
+123,f2ff901d8378732c9e85719fb1aef48c,efbd8e5f1f61e44e7f71b58643fb7c62,vignette,submitted,1,33,NA,Bachelor degree,NA
+124,dc5df45a46722616f0bb56eab88f6eed,0f0dab2446fb3558879a21405c574c2c,feedback_vignette,submitted,1,59,f,Master degree,Very difficult to predict.
+125,5ee410c1a9e51b6a89b3ee2cf3f9969f,3de3104282b406f6c6b93416b3b0c1ee,vignette,submitted,1,59,f,High school,This survey was fun. I like the format.
+126,83d445fe097812556f735ed22314c040,e885a17a760d754cf5667424802d1312,vignette,submitted,1,45,f,Bachelor degree,NA
+127,0f159eeb61748a59b6914f98d12d46a0,b9e1e9219aa5677af7cc78174d09b8d8,vignette,submitted,1,24,m,Bachelor degree,NA
+128,dbf38c1d03e2dac1d7d13712e7690d2f,2f940158af18a92eee8a8b88ff8a5d9f,vignette,submitted,1,28,f,Master degree,WELL
+129,ecedbf97e9a01416a627f65b5cab91b9,f1571f4d446b0793a5d957c99b297b5b,vignette,churned,1,37,m,Bachelor degree,NA
+130,88e6fe55fef3038db9a03556cfbaeb6c,c338a8477cc7153e4010830360b71fd6,feedback_vignette,submitted,1,32,f,Bachelor degree,NA
+131,8f91645e98c37b3a6cdea7e9faebd65d,7df3cefd37a109de20bad93f976da93f,feedback_vignette,submitted,1,35,f,Bachelor degree,NA
+132,931fb97aa5092077b5502dafaccca4d5,c99590ad590e149c2276a481c71c3881,feedback_vignette,submitted,1,23,m,High school,"This study is literally meant to screw you over. Guy commits has 10 priors at age 29 and DOESN'T get arrested. Either way, it was an interesting task, thanks!"
+133,5d6b7ec1330fc535f32f93023c3a8b29,26f8152d4bc8ab3fc457db05423feb1d,vignette,churned,1,NA,NA,NA,NA
+134,e2555c60cf3d0571dd319550a1be1b81,f37772ef8a698c233def573643dab622,vignette,churned,1,NA,NA,NA,NA
+135,fde8cc853efdd3ee7c0c5afc822103f9,e0b106e4ac0f294b55776c81559ec738,feedback_vignette,churned,1,NA,NA,NA,NA
+136,c14b10531f7af37426a3d44ca54aa939,88f707376cf27d879970e9ecca4e31ea,feedback_vignette,churned,1,NA,NA,NA,NA
+137,f3bb6334fa3c327a90c9adedadf05d11,29bb5a4e79fe3880b4ef979d7b277c21,feedback_vignette,churned,1,NA,NA,NA,NA
+138,e0b9850d003313472871f4a09749c394,6223bd4975868f7a59f15a754bfa22bf,feedback_vignette,churned,1,NA,NA,NA,NA
+139,b4c649c5afbc71b9f72ceff3723dc810,52c830feefd6b13c7059c7803814bb0e,vignette,submitted,1,27,f,Master degree,n/a
+140,758f19610740fb46e51ae7c91635d486,8051c737b19e2fd1dc938d4f23f2804f,vignette,submitted,1,24,f,Bachelor degree,NA
+141,29edacf738607730b2dc74cb4ceae28a,ab6556b1c6011c3c37346dc1d6d07baf,vignette,churned,1,NA,NA,NA,NA
+142,abd8e5f76e327c48f8737129e10cc80b,a3c87ea53aafb02b9d4e1e60d5ae1bd0,vignette,churned,1,NA,NA,NA,NA
+143,20ec1a5163a5cc8e9689c819b4b5da77,dd86906519aed116ca7bcfe1a9291437,feedback_vignette,submitted,1,20,m,High school,Was hard
+144,fe775d5c9e2e2df4c083045e63046077,acdea6a053d5f1fd6880ac9ae3e33b87,feedback_vignette,submitted,1,28,m,Bachelor degree,NA
+145,5fe56964a90a6226370c8e71aaf4e6a7,7dd4af5f1ad761ba1663f6eb46963cb2,feedback_vignette,churned,1,NA,NA,NA,NA
+146,576806805eebf92db6386dd1fed5ae44,d44e2f672d587892244f5b09e973cf14,feedback_vignette,submitted,1,42,f,Bachelor degree,"This was fun, and interesting."
+147,96fa009a9d59ea5a9c2e285e9b48a602,a229df00605f183f23a2a17a0a10ee2c,vignette,submitted,1,60,m,Bachelor degree,NA
+148,7e3c02683038824ffb53cb6232330f0b,9c55353af20bde2430cea65f5816ead4,feedback_vignette,churned,1,NA,NA,NA,NA
+149,82f70b91f8a80db9a66fda7d7f5512e9,4e3c0b08b9db7a58674135ad1c05cee2,vignette,submitted,1,35,f,Bachelor degree,Fun
+150,5335185e5ac29c9356b3a8f68bfc3e63,a5691b73d33c239f06194caecf304f2e,vignette,submitted,1,28,m,Bachelor degree,NA
+151,dfbf06f90e0f7b2850bd018c9b04b448,9c55353af20bde2430cea65f5816ead4,feedback_vignette,churned,1,NA,NA,NA,NA
+152,abac4c35b997cdedb069b3c8b308bb9e,e377d6709171d34dda7de2068297aee8,vignette,churned,1,NA,NA,NA,NA
+153,6dc08ca9b367035ea50320b493e270de,9fe50d1c86dd11537ad8774b211a600a,vignette,submitted,1,24,f,Master degree,nice
+154,761351d1cde5f8d1a550c1b07e3b915e,2fe01bafa6bf0449f73c63a9120519c7,vignette,submitted,1,27,f,Master degree,nice
+155,ef51bba34b25ea3c9b49ba9e66dc82d6,dd372639b0bfebe7560cf56cae5792d8,feedback_vignette,submitted,1,42,f,Bachelor degree,NA
+156,b7916f000dccf65da394211a1dcc0e6f,e32beda5b06cea99146b165d271b92e3,vignette,churned,1,NA,NA,NA,NA
+157,bc98df1cc3c208a722f227fb2030f73a,1efc920d19a5842fc2464b58695dc9b7,feedback_vignette,churned,1,NA,NA,NA,NA
+158,78ee71f8dfaecdf7532db870acc683c4,c63d8ef4866a0f7850b484188933ea05,vignette,submitted,1,27,m,Master degree,VERY NICE
+159,4e30a4934885393df7a72f5115c1ce7e,43f7d5e26def41420bbe0e4fbbdce894,feedback_vignette,submitted,1,0,NA,Bachelor degree,very interesting.
+160,f1d507914405a4f032cf66f64bff550e,2a3b6fb6ac049bf2274d219b7aeca951,feedback_vignette,submitted,1,27,m,Master degree,NICE AND GOOD
+161,e1f4f1997c4e136ecb0591c1d3f48356,8717d04f12e342bd6d4dda8621ebde1a,vignette,submitted,1,34,f,Bachelor degree,nil
+162,3e789a93f553ccce0fb76e76dc0e0d2e,dd5506ad39d750d2c7aaf3d0f2b6b420,vignette,churned,1,NA,NA,NA,NA
+163,44750daeba2395a8f1572d8384d4510b,666171b1cb59259af016c194ed9ab926,vignette,submitted,1,26,m,Bachelor degree,NA
+164,4f3fb5e9a6a978781eefd5815160e4ec,a469a25f7fb5a124cc0127168e422cda,feedback_vignette,submitted,1,0,m,Bachelor degree,Interesting. Thank you.
+165,96d2f298fb17c343f7570071575d8371,cc21d76182eab13efbe723e53975bca6,vignette,submitted,1,26,f,Master degree,Good study thank you
+166,7f09f530e7bfce9702d64d87bdcdd802,c90437a466de4c86618f4910caab8491,vignette,submitted,1,28,f,Bachelor degree,good
+167,b35612c697706cf112e6427c71158d2c,d454ac777f515e534d3afe5094b4fee2,feedback_vignette,submitted,1,0,NA,Master degree,nice and gain knowledge
+168,3550edb4a16296aa98751d09894faa50,c5a5926cf44b97bd0a9e04b29140a04c,feedback_vignette,submitted,1,32,f,Master degree,good study
+169,e8420177827bd3df7a7f1f0c9848b45e,2152c61e00d7b28e939e43ece66dc003,vignette,churned,1,54,m,Bachelor degree,NA
+170,a9c692b98b86cdebf586a0b0ac4acb48,20ff7b1b1cff57d616e54fb8b47aec95,vignette,churned,1,49,m,NA,NA
+171,e08c2629d2bff121ca2bf627378840b8,969e4a858d6149817a18d1d208d509b1,vignette,submitted,1,27,m,Master degree,GOOD
+172,5f89d79801f1f92e238463f520117983,a57d0e1dc86fe6e3cac5dedd294be5b6,vignette,submitted,1,29,f,Master degree,very nice
+173,6711a123d308555813e8a1ce45297ac9,8da2ef47a6cad1f72eb23afc07549c71,vignette,submitted,1,24,m,Bachelor degree,NA
+174,92e4b6a85aeadaa7e9ba70f3880b89ee,fa1972619a1b8b1e098d6126abf76e24,feedback_vignette,submitted,1,29,f,Master degree,nice
+175,92e4b6a85aeadaa7e9ba70f3880b89ee,fa1972619a1b8b1e098d6126abf76e24,feedback_vignette,submitted,1,29,f,Master degree,nice
+176,92e4b6a85aeadaa7e9ba70f3880b89ee,fa1972619a1b8b1e098d6126abf76e24,feedback_vignette,submitted,1,29,f,Master degree,nice
+177,92e4b6a85aeadaa7e9ba70f3880b89ee,fa1972619a1b8b1e098d6126abf76e24,feedback_vignette,submitted,1,29,f,Master degree,nice
+178,92e4b6a85aeadaa7e9ba70f3880b89ee,fa1972619a1b8b1e098d6126abf76e24,feedback_vignette,submitted,1,29,f,Master degree,nice
+179,354129064df61deb33ae23e35805f70d,25d1577c49af5d4cfcf52e0b27633dfd,vignette,submitted,1,40,m,Master degree,nice
+180,289d4e27aa2d81d767836b04d399cad4,3be3956ddf12528ad655c5416eda4823,vignette,submitted,1,26,f,Bachelor degree,thanks
+181,5ee95e06f2d04cf0d6d19bac843260db,e5fe8f1dda012c3034246ef99603ba1a,vignette,churned,1,NA,NA,NA,NA
+182,272abd744337ea6ee6cba91c655869f7,feb6298d2798b16d8a94e8429b7896d1,feedback_vignette,submitted,1,27,f,Master degree,GOOD AND NICE
+183,c65dac5ef0164ba9b4fc1f34ad550046,7dd4af5f1ad761ba1663f6eb46963cb2,feedback_vignette,submitted,1,23,m,Bachelor degree,nothing to else..
+184,2262cb8db7c1ad594db6cfc69f5c4fec,fc588a9f365dab5e05908d110987b163,feedback_vignette,submitted,1,1983,f,Master degree,nice this survey.
+185,7d8ca141b519ca7aee471645833a20e7,3bbd50033064a3c16f6a67388747f234,vignette,submitted,1,31,m,Bachelor degree,VERY GOOD
+186,f84c2c60cc94e690bacfd9f094061480,f6a717c0ad0ded0fa280c6b2ed462def,vignette,submitted,1,27,m,Master degree,very nice
+187,222ec118f7e8604872385dba4d000825,58e8a4dabb17ba6ebfe999259c011942,feedback_vignette,churned,1,NA,NA,NA,NA
+188,3b462e7a5f3459b379d5e994d6417c5e,59d458947ca6bcc66c79b7dbc4237c14,feedback_vignette,submitted,1,23,f,Bachelor degree,NA
+189,676173242435960d6406a1715d4b9324,1e5b9c1db017f3a84d7a2b794a3a5cd3,vignette,submitted,1,40,f,Master degree,nice very interested
+190,5b939da71ef22f85178d41ff3686f180,0d6ac47e172563c68342f57d2150f5df,feedback_vignette,submitted,1,27,m,Master degree,nice
+191,e0ce4fb63e89541d0ac535f92bd1affd,15dc69cb51ae02b6959c23de1624df32,vignette,submitted,1,40,m,Master degree,VERY WELL
+192,cd8fcafa7c6b2944d7d2bdd28f388961,8d47bbc20ab468c140d6144c62174df6,feedback_vignette,submitted,1,35,m,Master degree,NICE
+193,fbadfe1096e4ca9b098eb9646fe52aeb,a7911c6e47d431614dfe128837fa3300,feedback_vignette,submitted,1,27,m,Master degree,NA
+194,fbadfe1096e4ca9b098eb9646fe52aeb,a7911c6e47d431614dfe128837fa3300,feedback_vignette,submitted,1,27,m,Master degree,NA
+195,1c8c3be9650d628e79bb5d579fb9ce0a,b9d50ec1c59da541a85e3808f37879e5,vignette,submitted,1,35,f,Master degree,Nice
+196,7880ba36bbd3b6ed80259e8f47349e32,2940864f9a43b94f4944611211271fdc,feedback_vignette,submitted,1,23,m,High school,HIT was interesting and fun!
+197,6a6a435c3b72bc07af88c75d37a68aaf,e36a4f22f063850a96d3192a1e72620c,vignette,submitted,1,32,m,Middle school,NA
+198,9b18a7ba4f35cb92fb20cb802c261cd0,63051d93154aaa4354d662a6072ea190,feedback_vignette,churned,1,NA,NA,NA,NA
+199,309f6e1d804402f9b7fa111a58cd3ce7,63051d93154aaa4354d662a6072ea190,feedback_vignette,submitted,1,26,m,Associate degree,Very interesting survey! Thank you.
+200,489cd09869bb66c5cdc2ee43accd21c0,9b3fed6f82ce24e2b3f6634632743e9d,vignette,churned,1,NA,NA,NA,NA
+201,4d44fb3801083ed38cdcce94672fc1da,e05bf58124490009d9d60230806da594,vignette,churned,1,NA,NA,NA,NA
+202,824611921dcbd136606297bf6101f041,fd183664cd5558d05365b35bd9981b34,vignette,churned,1,NA,NA,NA,NA
+203,b8f4ad908dc73abbb08840ab866a34e0,15a261c596ade4ccb5354d3af9033fce,vignette,churned,1,NA,NA,NA,NA
+204,5a5909e0a2d8675b951bb8574e967d62,9d4d0a1140134041c5ab906325f26930,vignette,churned,1,NA,NA,NA,NA
+205,09cf9580dec49b077ee9770a88e8df41,90237baa6f1c7e22199caf02a0b1ae87,vignette,submitted,1,36,m,Bachelor degree,NA
+206,e693622d754d019446f76f54ab04c6fe,8b955b589cd88a0643ba27c5516934b2,feedback_vignette,submitted,1,27,m,Doctoral degree,NA
+207,d29885953a5e5329d66fb537880a5fc1,a4094e94deb8b317e07fce92dd368da3,feedback_vignette,submitted,1,27,f,Bachelor degree,Really enjoyed this HIT!
+208,2bf983382a921ec7ac6e075966f6ad62,8aa6333b4d6dac0dda25cee23e81c16e,feedback_vignette,churned,1,NA,NA,NA,NA
+209,ea39f0163c986f5b3171488318c08e70,bc613f0ebcb93c2f0b4345e8ecba7aa1,vignette,submitted,1,27,m,Doctoral degree,NA
+210,071b198651e5794ed61e8fa453c0a84b,e01c17c8bf9a3136a2184402d6dc0008,vignette,submitted,1,23,o,Bachelor degree,N/a loved it but genuinely do hope to see a bonus tagged with this
+211,c6a32e26764f23a3d94e8bc2a89f1cc3,29770df9d4d5a84d61e5f0b39f6a6ee8,vignette,submitted,1,30,m,Bachelor degree,Good Survey
+212,9eec5e3516635cd1932da08a7231aa11,315c1382b48498c35af0dc724d21eecc,feedback_vignette,churned,1,NA,NA,NA,NA
+213,4fc8c2732ca852f839805407bd126b0a,09b81713be4bad7bb08d6abd7b6cfa45,vignette,submitted,1,34,m,High school,Interesting study - wonder what the results would be.
+214,afea80ce11a1177fa6109aedf18e61ef,e05bf58124490009d9d60230806da594,vignette,submitted,1,34,m,Associate degree,none thank you
+215,b969e54bba1e4755456bd651e51b8411,a4b85c84d0c7908a71f8512c5f7c9320,feedback_vignette,submitted,1,32,m,Bachelor degree,good survey
+216,4f79790ae79d1d99b49ad1cb0ac92e1e,ffbd01eeb513419a2207d131dd86131b,vignette,submitted,1,33,f,Bachelor degree,NA
+217,d81ef86a4e53d0ec2ec817717285e024,bcaa211213b1bae523403013d7da69a9,vignette,submitted,1,28,m,Bachelor degree,It was interesting.
+218,1e7b538dec9948f33cf9c5a1cb593c66,8314c05633e0c48a727ab352bacf1262,vignette,submitted,1,29,m,Associate degree,Interesting study.
+219,e5a3903b54eb3172f4ea1266c5a00072,555789a9679c69f9cc7c8bfd55ccfd9c,feedback_vignette,submitted,1,42,f,Associate degree,"Thanks, it was tough to decide. It seems it went both ways: lots of people with priors re-offended, but the opposite was true as well."
+220,90f8a4e2100f7842df5fff6eea0b8a0b,d742a27a63e41c97fad5ccd98f869974,vignette,submitted,1,29,f,Bachelor degree,Nice
+221,90f8a4e2100f7842df5fff6eea0b8a0b,d742a27a63e41c97fad5ccd98f869974,vignette,submitted,1,29,f,Bachelor degree,Nice
+222,80273754a1ead5bc41469e0443e5efad,66f9f301bdd7ab5cac54e0bf0cd14863,feedback_vignette,submitted,1,25,m,Bachelor degree,NA
+223,80273754a1ead5bc41469e0443e5efad,66f9f301bdd7ab5cac54e0bf0cd14863,feedback_vignette,submitted,1,25,m,Bachelor degree,NA
+224,496c8848156aff660c55124dd950b010,8aa6333b4d6dac0dda25cee23e81c16e,vignette,churned,1,NA,NA,NA,NA
+225,ccaddc1cf0b8c92fad2d3fc1fef2c668,60d37be946f6a54869f201741b20ac3d,vignette,submitted,1,24,f,Master degree,NA
+226,952d4a3552d23473530c7c774de41da9,57052e779ebdbf62ee314181b3cdd820,feedback_vignette,submitted,1,55,f,High school,"Thanks, this was fun. I tried to figure out the attention checks  and what to choose first to get to the % of the # that you wanted."
+227,d455bc90f80679cb041fd18126e53f38,2d19139f2c38c8598e273c8a9bcd107e,feedback_vignette,submitted,1,35,f,Bachelor degree,None.
+228,31004bc90465e371dca8d53be6e1f0d2,d96ad96d0a8830d9ee647050f87c362b,feedback_vignette,submitted,1,41,m,Bachelor degree,NA
+229,d1966224b3bc33c24fdacfd60df9e27d,9b5b9a1f9e2f128a3a372e83027e31a0,feedback_vignette,submitted,1,57,f,Associate degree,NA
+230,af5369e2378c7288f3df6668403b65f1,3b5b56ca7cb8194aee0eaca96e5e4e24,feedback_vignette,churned,1,NA,NA,NA,NA
+231,b5ef1a378cb7facc22afab7035b836a6,7c1e8044162fa19b339a14cf16121a30,feedback_vignette,submitted,1,26,m,Bachelor degree,NA
+232,23ac5ce4cb672a3eef67fb524931813c,07746728c02bc7642c69f56fd9079b6e,vignette,submitted,1,55,f,Associate degree,Great survey. Very thought provoking. Thank you for allowing me to participate.
+233,e3261fae8f516b6516bb8ff3dba0711c,c881258a69e001735a60a937a62cd4dd,feedback_vignette,submitted,1,26,f,High school,NA
+234,45e63fbae73f8a6f53cd9b1e0eb3e96a,b2699889d37a6a8da4b89737600da18b,feedback_vignette,submitted,1,1981,f,Bachelor degree,NA
+235,ad2ca54da016e4f034fa229bf1dc82d4,d75927dcc0eb0320f49364428411b079,vignette,churned,1,68,m,Bachelor degree,NA
+236,875af2621a4278ca52d63467cafdddba,f5a3118ae04f0acdd31d50a5447322d8,vignette,submitted,1,31,m,Bachelor degree,EXCELLENT PROJECT.GOOD
+237,7e69117f6a7b99c6929e73ae430c6c12,f981b4310f9eb4f11634db1079b723fe,feedback_vignette,submitted,1,23,m,Bachelor degree,thank you!
+238,1553e4fb99f15e39ec7a6f8793eb4a0a,bd1ab7d28622e6865b1a44c3d14e87b7,vignette,churned,1,41,m,Master degree,NA
+239,3fa932918a750dd4b2d2b5c00dd31d3a,9b3fed6f82ce24e2b3f6634632743e9d,feedback_vignette,submitted,1,26,f,Bachelor degree,NA
+240,007ef1d2353d4993083eeb65fa1f6885,fd183664cd5558d05365b35bd9981b34,vignette,submitted,1,44,f,Bachelor degree,NA
+241,42a185861d28acd9bb12e1079dc54817,ed8e484b39a0a940a954b495e59d207b,vignette,submitted,1,49,m,Associate degree,This study was interesting.
+242,ad9fe197f4d6e503cc6cde83875b7b4e,3dd4e7a1a6e40e92d38049a1b2fa80a2,feedback_vignette,submitted,1,32,m,Bachelor degree,NA
+243,7feac7d826ba2c782dcca2de34c93fc5,933656e004ae0c4334328f31bc5ddb85,vignette,submitted,1,57,f,Bachelor degree,Why not tell me how much my bonus will be?
+244,1bd67bcd0d8bfd75229c0699b255cd34,29932303258200b0e716e8e31693c0d6,vignette,submitted,1,23,m,Bachelor degree,NA
+245,77affb494b8b19b8b17ccff4b7c27735,3e18de47fa8ae3916d19a8d1e0bd27cb,vignette,submitted,1,30,m,Master degree,very good
+246,530e988d74a1902a00743a1c1a3fb193,52afc1321ae5ca2c00925e04f4198ebe,feedback_vignette,submitted,1,28,m,High school,"Interesting study, thank you!"
+247,d2d90d77c6de2f4b610f20a529831c3e,2f91ea58557b9e29a4fc465553a5ed6f,feedback_vignette,submitted,1,30,m,Bachelor degree,none
+248,3ccf754467cc6a7d09ca851a36f1efbe,6f5467cc3028a39868db83799a9b9ea2,vignette,submitted,1,29,f,Master degree,thanks
+249,0a8dcca3f4b831fb88e75e71ac6b8d5b,d4b89a3e4262b2ba03f5f6ec023fdffd,vignette,churned,1,NA,NA,NA,NA
+250,70ea7bc31afcd78c44ebbc3389709357,7c25c23e593b2e9c77f76a73b9e4f188,feedback_vignette,submitted,1,36,m,Master degree,NA
+251,ecb689b67c79dc2a4506b64ee8b85a7e,b92461c05e2ee23f9bef5da8ba753caa,vignette,churned,1,NA,NA,NA,NA
+252,23a64bc0b36cecbedbcba6b3a27e7805,dd9d750d5706ce8c4ff7b4c64095b0f2,vignette,submitted,1,36,m,Bachelor degree,NA
+253,3e50c4d40487ee1a62ba3541cb9df314,a357059b86a0b3f44abf78ec6b139fc0,vignette,submitted,1,25,m,High school,N/A
+254,ab61df47619ff62c4cdedb7ff4677641,e45860b5e4bb44009a3ba555b3f14788,feedback_vignette,submitted,1,22,f,High school,NA
+255,0bae9e65f8189744f4b5b41543adad81,2d01bf5d78fae1537e6b238cb2904dd2,feedback_vignette,submitted,1,31,m,Associate degree,Challenging task. No problems.
+256,0f84ab7b159509f60241e7232b9551b3,194e9dfc7a4f25f69fad6c22cf8ce247,vignette,submitted,1,26,m,High school,none
+257,5f9d229c000e33f9839d561a0a185d51,1c56706b37264a63e1dd0c0443eca0fc,feedback_vignette,submitted,1,29,m,High school,NA
+258,9dbfc34d3048f25ec14789d7d57ea685,3ab951ebb31ec5a0baacee2e4293694a,vignette,submitted,1,49,m,Master degree,NA
+259,d08e803824095ae7b8ee0202eca48d2d,15a261c596ade4ccb5354d3af9033fce,feedback_vignette,submitted,1,32,f,Bachelor degree,"No issues, was interesting to complete."
+260,e598602a24fada80dba125c061266a37,e5b15065a6fc45384cce2fef15132a26,vignette,churned,1,NA,NA,NA,NA
+261,92bb54096ee8e7df09ca6170c6c70870,9a29102ccde7c8e2cc12c8f75d66fe01,feedback_vignette,churned,1,NA,NA,NA,NA
+262,41afa099b5ee79473b2a5199598e0b58,5d0e55c1f71b18d416403ba68c19ebcb,vignette,submitted,1,31,f,Doctoral degree,interesting
+263,41afa099b5ee79473b2a5199598e0b58,5d0e55c1f71b18d416403ba68c19ebcb,vignette,submitted,1,31,f,Doctoral degree,interesting
+264,6fcedc9a1d4077fb3f3cdb80a48917b1,8cc284c88b7e9d4ca5372974b62f3b29,feedback_vignette,submitted,1,25,f,High school,NA
