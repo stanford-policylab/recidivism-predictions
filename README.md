@@ -26,13 +26,13 @@ If the original LSI-R datasets are not available, ID and outcome columns from th
 If the original LSI-R datasets do exist under `data/private/individuals/`, then derived data at `data/public/derived/lsi` will be recalculated using the original datasets.
 
 ### Reference
-Lin, Zhiyuan "Jerry", Jongbin Jung, Sharad Goel, Jennifer Skeem. "The Limits of Human Predictions of Recidivism." Science Advances (2020).
+Lin, Zhiyuan (Jerry), Jongbin Jung, Sharad Goel, Jennifer Skeem. "The Limits of Human Predictions of Recidivism." Science Advances (2020).
 
 BibTex
 ```
 @article{lin2020limits,
   title={The Limits of Human Predictions of Recidivism},
-  author={Lin, Zhiyuan "Jerry" and Jung, Jongbin and Goel, Sharad and Skeem, Jennifer},
+  author={Lin, Zhiyuan (Jerry) and Jung, Jongbin and Goel, Sharad and Skeem, Jennifer},
   journal={Science Advances},
   year={2020},
   publisher={American Association for the Advancement of Science}
