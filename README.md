@@ -30,11 +30,19 @@ Lin, Zhiyuan (Jerry), Jongbin Jung, Sharad Goel, Jennifer Skeem. "The Limits of 
 
 BibTex
 ```
-@article{lin2020limits,
-  title={The Limits of Human Predictions of Recidivism},
-  author={Lin, Zhiyuan (Jerry) and Jung, Jongbin and Goel, Sharad and Skeem, Jennifer},
-  journal={Science Advances},
-  year={2020},
-  publisher={American Association for the Advancement of Science}
+@article {lin2020limits,
+	author = {Lin, Zhiyuan (Jerry) and Jung, Jongbin and Goel, Sharad and Skeem, Jennifer},
+	title = {The Limits of Human Predictions of Recidivism},
+	volume = {6},
+	number = {7},
+	elocation-id = {eaaz0652},
+	year = {2020},
+	doi = {10.1126/sciadv.aaz0652},
+	publisher = {American Association for the Advancement of Science},
+	abstract = {Dressel and Farid recently found that laypeople were as accurate as statistical algorithms in predicting whether a defendant would reoffend, casting doubt on the value of risk assessment tools in the criminal justice system. We report the results of a replication and extension of Dressel and Farid{\textquoteright}s experiment. Under conditions similar to the original study, we found nearly identical results, with humans and algorithms performing comparably. However, algorithms beat humans in the three other datasets we examined. The performance gap between humans and algorithms was particularly pronounced when, in a departure from the original study, participants were not provided with immediate feedback on the accuracy of their responses. Algorithms also outperformed humans when the information provided for predictions included an enriched (versus restricted) set of risk factors. These results suggest that algorithms can outperform human predictions of recidivism in ecologically valid settings.},
+	URL = {https://advances.sciencemag.org/content/6/7/eaaz0652},
+	eprint = {https://advances.sciencemag.org/content/6/7/eaaz0652.full.pdf},
+	journal = {Science Advances}
 }
+
 ```
